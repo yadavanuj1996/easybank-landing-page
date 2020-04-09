@@ -19,25 +19,29 @@ p {
   .nav-link {
     text-align: center;
     font-weight: bold;
-    color: #2D314D;
+    color: #2D314D !important;
+    outline: none !important;
   }
-  .navbar-brand{
+
+  .navbar-brand {
     padding-top: 4% !important;
-    padding-bottom: 2% !important;}
+    padding-bottom: 2% !important;
   }
+}
 @media only screen and (min-width: 768px) and (max-width: 849.98px) {
-  h1{
-    padding-top: 12px !important;	
+  h1 {
+    padding-top: 6px !important;
   }
-  .navbar-brand{
-    padding:0 !important;
+
+  .navbar-brand {
+    padding: 0 !important;
   }
+
   nav {
     z-index: 3000 !important;
     padding: 0 6rem 0 6rem !important;
     width: 100%;
     padding-left: 3% !important;
-
   }
 
   .navbar-expand-md .navbar-collapse {
@@ -45,19 +49,21 @@ p {
   }
 }
 @media only screen and (min-width: 850px) and (max-width: 1199.98px) {
-  h1{
-	padding-top: 12px !important;	
+  h1 {
+    padding-top: 6px !important;
   }
-  .navbar-brand{
-    padding:0 !important;
+
+  .navbar-brand {
+    padding: 0 !important;
   }
+
   nav {
     z-index: 3000 !important;
     padding: 0 6rem 0 6rem !important;
     width: 100%;
     padding-left: 7% !important;
-    padding-top: 1% !important;
-    padding-bottom: 1% !important;
+    padding-top: 0.5% !important;
+    padding-bottom: 0.5% !important;
   }
 
   .navbar-expand-md .navbar-collapse {
@@ -65,20 +71,22 @@ p {
   }
 }
 @media only screen and (min-width: 1200px) {
-   h1{
-	padding-top: 12px !important;	
-   }
-  .navbar-brand{
-    padding:0 !important;
+  h1 {
+    padding-top: 6px !important;
   }
+
+  .navbar-brand {
+    padding: 0 !important;
+  }
+
   nav {
     z-index: 3000 !important;
     padding: 0 6rem 0 6rem !important;
     width: 100%;
     padding-left: 12% !important;
     padding-right: 10% !important;
-    padding-top: 1% !important;
-    padding-bottom: 1% !important;
+    padding-top: 0.5% !important;
+    padding-bottom: 0.5% !important;
   }
 
   .navbar-expand-md .navbar-collapse {
@@ -87,6 +95,7 @@ p {
 }
 .nav-link {
   font-size: 15px !important;
+  outline: none !important;
 }
 
 .nav-link:active {
@@ -139,7 +148,6 @@ p {
 
   #introduction {
     background-image: url("https://svgshare.com/i/JsH.svg") !important;
-    min-height: 50vh !important;
     background-repeat: no-repeat;
     background-position: 8% 112%;
   }
@@ -169,7 +177,6 @@ p {
 
   #introduction {
     background-image: url("https://svgshare.com/i/JsH.svg") !important;
-    min-height: 50vh !important;
     background-repeat: no-repeat;
     background-position: 11% 112%;
   }
@@ -233,13 +240,16 @@ p {
   margin: 0 !important;
   cursor: default !important;
 }
+
 .card h4 {
   padding-top: 1.5rem;
   padding-bottom: 1rem;
 }
+
 .card img {
   width: 25% !important;
 }
+
 .card p {
   width: 90%;
   font-size: 16px !important;
@@ -252,20 +262,22 @@ p {
   }
 
   .article-card {
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 5%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 5% !important;
+    margin-top: 10% !important;
+    margin-bottom: 10% !important;
     width: 90%;
     background-color: white !important;
     margin: 7% auto 7% auto !important;
   }
+
   .article-card h5 {
     font-size: 1.12rem !important;
   }
+
   .article-card .article-details {
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -279,19 +291,30 @@ p {
   .article-card {
     padding-left: 0 !important;
     padding-right: 0 !important;
-    padding-bottom: 5%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    padding-bottom: 5% !important;
+    margin-top: 10% !important;
+    margin-bottom: 10% !important;
     width: 90%;
     background-color: white !important;
     margin: 7% 5px 7% 5px !important;
     cursor: default !important;
   }
+
   .article-card h5 {
     font-size: 1.12rem !important;
   }
+
   .article-card .article-details {
-    font-size: 16px !important;
+    font-size: 14px !important;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 991.98px) {
+  .article-card-odd {
+    margin-left: -1% !important;
+  }
+
+  .article-card-even {
+    margin-right: -1% !important;
   }
 }
 h5:hover, h5:active {
@@ -314,8 +337,9 @@ h5:hover, h5:active {
     padding-top: 5px;
     padding-bottom: 5px;
   }
+
   #social-media-icons i:hover, #social-media-icons i:active {
-    color: #31d35c !important;
+    color: #2bb7da !important;
   }
 
   .footer-link {
@@ -333,8 +357,9 @@ h5:hover, h5:active {
     padding-top: 5px;
     padding-bottom: 5px;
   }
+
   #social-media-icons i:hover, #social-media-icons i:active {
-    color: #31d35c !important;
+    color: #2bb7da !important;
   }
 
   .footer-link {
@@ -346,12 +371,13 @@ h5:hover, h5:active {
   }
 }
 .footer-link:active, .footer-link:hover {
-  color: #31d35c !important;
+  color: #2bb7da !important;
 }
 
 footer {
   background-color: #2d314d !important;
 }
+
 footer a {
   text-decoration: none !important;
 }
@@ -380,14 +406,25 @@ footer a {
   color: #2bb7da !important;
 }
 
-
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .mt-md-custom-easybank {
+    margin-top: -13% !important;
+  }
+}
 @media only screen and (min-width: 1200px) and (max-width: 1549.98px) {
+  .mt-md-custom-easybank {
+    margin-top: -10% !important;
+  }
+
   #business-tagline {
     font-size: 2.8rem !important;
   }
 }
-
 @media only screen and (min-width: 1550px) {
+  .mt-md-custom-easybank {
+    margin-top: -8% !important;
+  }
+
   #business-tagline {
     font-size: 3.8rem !important;
   }
